@@ -1,0 +1,1669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		3AC332F0D769FA37473DF947 /* Assets.xcassets */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder.assetcatalog;
+			path = Assets.xcassets;
+			sourceTree = "<group>";
+		};
+		8067854D3433E224D544DF51 /* RevenueCatConfig.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = RevenueCatConfig.swift;
+			sourceTree = "<group>";
+		};
+		9130D1B4BD5E3A54CD3E87F5 /* Components.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Components.swift;
+			sourceTree = "<group>";
+		};
+		02376DAEC332254D72CC159A /* HomeView.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = HomeView.swift;
+			sourceTree = "<group>";
+		};
+		0DD1AEE075A6392578C177DD /* InsightsView.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = InsightsView.swift;
+			sourceTree = "<group>";
+		};
+		A174D3B033D60F5D3D60595C /* LibraryViews.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = LibraryViews.swift;
+			sourceTree = "<group>";
+		};
+		CF3982D3FC17AB6FEACC6C0B /* OnboardingFlow.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = OnboardingFlow.swift;
+			sourceTree = "<group>";
+		};
+		B12CACBDC48FE3534B2660B4 /* PaywallView.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PaywallView.swift;
+			sourceTree = "<group>";
+		};
+		13463A19E13438F46C6552BB /* ReadingSessionView.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = ReadingSessionView.swift;
+			sourceTree = "<group>";
+		};
+		BA83CEDB88914356BBC2D554 /* SettingsView.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = SettingsView.swift;
+			sourceTree = "<group>";
+		};
+		955458CB075865BC91E01D14 /* Info.plist */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		E6191542C810C1CC94B0583B /* Models.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Models.swift;
+			sourceTree = "<group>";
+		};
+		7C74A5C7FA88CF1DD55C0D5E /* Pageworm.entitlements */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.entitlements;
+			path = Pageworm.entitlements;
+			sourceTree = "<group>";
+		};
+		81F5C67EFF3A7B33E511AD3C /* PagewormApp.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PagewormApp.swift;
+			sourceTree = "<group>";
+		};
+		40DA5824E914D7F4A1E9EC64 /* PrivacyInfo.xcprivacy */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			path = PrivacyInfo.xcprivacy;
+			sourceTree = "<group>";
+		};
+		426C6DA29F34EB386155BC80 /* LibraryAndSessions.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = LibraryAndSessions.swift;
+			sourceTree = "<group>";
+		};
+		73BAE945F9C9A6CA871F803C /* LiveActivityController.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = LiveActivityController.swift;
+			sourceTree = "<group>";
+		};
+		A28B189705783B6826F2DDB0 /* MetadataClient.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = MetadataClient.swift;
+			sourceTree = "<group>";
+		};
+		25BE3D815869D6D64BAEE78E /* Notifications.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Notifications.swift;
+			sourceTree = "<group>";
+		};
+		40A36B80B7BACE2975721199 /* ReportContext.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = ReportContext.swift;
+			sourceTree = "<group>";
+		};
+		1E7B1417080BB47213ACEA04 /* ScreenTimeManager.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = ScreenTimeManager.swift;
+			sourceTree = "<group>";
+		};
+		51611806876B9D25731EB3F6 /* SubscriptionManager.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = SubscriptionManager.swift;
+			sourceTree = "<group>";
+		};
+		501BF9163DFFA74750467402 /* DeviceActivityMonitorExtension.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = DeviceActivityMonitorExtension.swift;
+			sourceTree = "<group>";
+		};
+		3720B6D7291EE67E8AB3BD6E /* Info.plist */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		22C65F67268044906F099859 /* Monitor.entitlements */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.entitlements;
+			path = Monitor.entitlements;
+			sourceTree = "<group>";
+		};
+		F0DCC1ECF4F9F3B96013431B /* Info.plist */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		09C4CD650DED0EE16E34C408 /* Report.entitlements */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.entitlements;
+			path = Report.entitlements;
+			sourceTree = "<group>";
+		};
+		1C5A35838ECD240571E41298 /* WeeklyScrollReport.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = WeeklyScrollReport.swift;
+			sourceTree = "<group>";
+		};
+		F6E95CDDB07EED240C843BAD /* Info.plist */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		4BB898DFD441FF4DBBD46913 /* ShieldAction.entitlements */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.entitlements;
+			path = ShieldAction.entitlements;
+			sourceTree = "<group>";
+		};
+		A7C57A9508CC7C78DC423351 /* ShieldActionExtension.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = ShieldActionExtension.swift;
+			sourceTree = "<group>";
+		};
+		622309C0ED2A97C606D3F192 /* Info.plist */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		DAAEF9CFEEFDB4EA4746DEE6 /* ShieldConfiguration.entitlements */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.entitlements;
+			path = ShieldConfiguration.entitlements;
+			sourceTree = "<group>";
+		};
+		1A340BC9EFCAC1E969C1F677 /* ShieldConfigurationExtension.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = ShieldConfigurationExtension.swift;
+			sourceTree = "<group>";
+		};
+		B9F535AB4C0D76F78E3AB05C /* Info.plist */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		DBD391D28177C48BA6882924 /* PagewormWidget.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PagewormWidget.swift;
+			sourceTree = "<group>";
+		};
+		3D9DCA31A7A84FDF0424DBB3 /* Widget.entitlements */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.entitlements;
+			path = Widget.entitlements;
+			sourceTree = "<group>";
+		};
+		307759E919D7BAA2EE287639 /* ShieldApplier.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = ShieldApplier.swift;
+			sourceTree = "<group>";
+		};
+		13E52532826EA5C667DCF975 /* Pageworm.app */ = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = Pageworm.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		77D6E53183395407A7709C4C /* ShieldConfiguration.appex */ = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.app-extension";
+			includeInIndex = 0;
+			path = ShieldConfiguration.appex;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1C27F355221C11ADA723EA01 /* ShieldAction.appex */ = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.app-extension";
+			includeInIndex = 0;
+			path = ShieldAction.appex;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		31FBA9FC10665F36A0F2A3CD /* DeviceActivityMonitor.appex */ = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.app-extension";
+			includeInIndex = 0;
+			path = DeviceActivityMonitor.appex;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6023D14CDED90E09812303B /* DeviceActivityReport.appex */ = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.app-extension";
+			includeInIndex = 0;
+			path = DeviceActivityReport.appex;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F151EA1C0AD76DC83A8D465F /* PagewormWidget.appex */ = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.app-extension";
+			includeInIndex = 0;
+			path = PagewormWidget.appex;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4910F58472E1E75D51D39370 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13E52532826EA5C667DCF975 /* Pageworm.app */,
+				77D6E53183395407A7709C4C /* ShieldConfiguration.appex */,
+				1C27F355221C11ADA723EA01 /* ShieldAction.appex */,
+				31FBA9FC10665F36A0F2A3CD /* DeviceActivityMonitor.appex */,
+				B6023D14CDED90E09812303B /* DeviceActivityReport.appex */,
+				F151EA1C0AD76DC83A8D465F /* PagewormWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		508E3D46B4E17BCB6FDD1386 /* Pageworm */ = {
+			isa = PBXGroup;
+			children = (
+				B47120094E6E1E2405A1EE8D /* Shared */,
+				DC165F9CFBC10570848D30B7 /* App */,
+				EF9AB52A768619443A923EB7 /* Extensions */,
+				4910F58472E1E75D51D39370 /* Products */,
+			);
+			sourceTree = "<group>";
+			name = Pageworm;
+		};
+		DC165F9CFBC10570848D30B7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				18F39CB8930B591380E525CB /* Config */,
+				3AC332F0D769FA37473DF947 /* Assets.xcassets */,
+				40DA5824E914D7F4A1E9EC64 /* PrivacyInfo.xcprivacy */,
+				4248BE84029E2FA5090187E6 /* Models */,
+				7C74A5C7FA88CF1DD55C0D5E /* Pageworm.entitlements */,
+				81F5C67EFF3A7B33E511AD3C /* PagewormApp.swift */,
+				872398DDEC66AAC4DD3C33E1 /* Services */,
+				955458CB075865BC91E01D14 /* Info.plist */,
+				9AB7797FA6D9DCBBDFC425BC /* Features */,
+			);
+			sourceTree = "<group>";
+			path = App;
+		};
+		EF9AB52A768619443A923EB7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8EA07C72A0F7726BC06DC7BF /* Widget */,
+				B02982FD5A9C074B6D5DA2A2 /* ShieldAction */,
+				B1ACFDB4E70B226E3369B78F /* ShieldConfiguration */,
+				E0FA465714949A2F03B8B7CF /* DeviceActivityReport */,
+				E694354B0EA28FA2F91A94E3 /* DeviceActivityMonitor */,
+			);
+			sourceTree = "<group>";
+			path = Extensions;
+		};
+		B47120094E6E1E2405A1EE8D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A171B90FB433BB67505FF71D /* Blocking */,
+			);
+			sourceTree = "<group>";
+			path = Shared;
+		};
+		18F39CB8930B591380E525CB /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				8067854D3433E224D544DF51 /* RevenueCatConfig.swift */,
+			);
+			sourceTree = "<group>";
+			path = Config;
+		};
+		9AB7797FA6D9DCBBDFC425BC /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				2DF3586DCE97F7B6544A6D17 /* Home */,
+				46009D214B012CB1924F703F /* Onboarding */,
+				564881FE5249F67744940C45 /* Components */,
+				CDB0B0B850BD4FABCA331445 /* Insights */,
+				D321613EDF32A08AADB74EC1 /* Reading */,
+				DEB6DC56A8045D4BF79CA333 /* Paywall */,
+				F367800A7C7020892F78E51F /* Library */,
+				F94D54D36EEA1A43D85F3C42 /* Settings */,
+			);
+			sourceTree = "<group>";
+			path = Features;
+		};
+		4248BE84029E2FA5090187E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E6191542C810C1CC94B0583B /* Models.swift */,
+			);
+			sourceTree = "<group>";
+			path = Models;
+		};
+		872398DDEC66AAC4DD3C33E1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1E7B1417080BB47213ACEA04 /* ScreenTimeManager.swift */,
+				25BE3D815869D6D64BAEE78E /* Notifications.swift */,
+				40A36B80B7BACE2975721199 /* ReportContext.swift */,
+				426C6DA29F34EB386155BC80 /* LibraryAndSessions.swift */,
+				51611806876B9D25731EB3F6 /* SubscriptionManager.swift */,
+				73BAE945F9C9A6CA871F803C /* LiveActivityController.swift */,
+				A28B189705783B6826F2DDB0 /* MetadataClient.swift */,
+			);
+			sourceTree = "<group>";
+			path = Services;
+		};
+		E694354B0EA28FA2F91A94E3 /* DeviceActivityMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				22C65F67268044906F099859 /* Monitor.entitlements */,
+				3720B6D7291EE67E8AB3BD6E /* Info.plist */,
+				501BF9163DFFA74750467402 /* DeviceActivityMonitorExtension.swift */,
+			);
+			sourceTree = "<group>";
+			path = DeviceActivityMonitor;
+		};
+		E0FA465714949A2F03B8B7CF /* DeviceActivityReport */ = {
+			isa = PBXGroup;
+			children = (
+				09C4CD650DED0EE16E34C408 /* Report.entitlements */,
+				1C5A35838ECD240571E41298 /* WeeklyScrollReport.swift */,
+				F0DCC1ECF4F9F3B96013431B /* Info.plist */,
+			);
+			sourceTree = "<group>";
+			path = DeviceActivityReport;
+		};
+		B02982FD5A9C074B6D5DA2A2 /* ShieldAction */ = {
+			isa = PBXGroup;
+			children = (
+				4BB898DFD441FF4DBBD46913 /* ShieldAction.entitlements */,
+				A7C57A9508CC7C78DC423351 /* ShieldActionExtension.swift */,
+				F6E95CDDB07EED240C843BAD /* Info.plist */,
+			);
+			sourceTree = "<group>";
+			path = ShieldAction;
+		};
+		B1ACFDB4E70B226E3369B78F /* ShieldConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				1A340BC9EFCAC1E969C1F677 /* ShieldConfigurationExtension.swift */,
+				622309C0ED2A97C606D3F192 /* Info.plist */,
+				DAAEF9CFEEFDB4EA4746DEE6 /* ShieldConfiguration.entitlements */,
+			);
+			sourceTree = "<group>";
+			path = ShieldConfiguration;
+		};
+		8EA07C72A0F7726BC06DC7BF /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				3D9DCA31A7A84FDF0424DBB3 /* Widget.entitlements */,
+				B9F535AB4C0D76F78E3AB05C /* Info.plist */,
+				DBD391D28177C48BA6882924 /* PagewormWidget.swift */,
+			);
+			sourceTree = "<group>";
+			path = Widget;
+		};
+		A171B90FB433BB67505FF71D /* Blocking */ = {
+			isa = PBXGroup;
+			children = (
+				307759E919D7BAA2EE287639 /* ShieldApplier.swift */,
+			);
+			sourceTree = "<group>";
+			path = Blocking;
+		};
+		564881FE5249F67744940C45 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9130D1B4BD5E3A54CD3E87F5 /* Components.swift */,
+			);
+			sourceTree = "<group>";
+			path = Components;
+		};
+		2DF3586DCE97F7B6544A6D17 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				02376DAEC332254D72CC159A /* HomeView.swift */,
+			);
+			sourceTree = "<group>";
+			path = Home;
+		};
+		CDB0B0B850BD4FABCA331445 /* Insights */ = {
+			isa = PBXGroup;
+			children = (
+				0DD1AEE075A6392578C177DD /* InsightsView.swift */,
+			);
+			sourceTree = "<group>";
+			path = Insights;
+		};
+		F367800A7C7020892F78E51F /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A174D3B033D60F5D3D60595C /* LibraryViews.swift */,
+			);
+			sourceTree = "<group>";
+			path = Library;
+		};
+		46009D214B012CB1924F703F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				CF3982D3FC17AB6FEACC6C0B /* OnboardingFlow.swift */,
+			);
+			sourceTree = "<group>";
+			path = Onboarding;
+		};
+		DEB6DC56A8045D4BF79CA333 /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				B12CACBDC48FE3534B2660B4 /* PaywallView.swift */,
+			);
+			sourceTree = "<group>";
+			path = Paywall;
+		};
+		D321613EDF32A08AADB74EC1 /* Reading */ = {
+			isa = PBXGroup;
+			children = (
+				13463A19E13438F46C6552BB /* ReadingSessionView.swift */,
+			);
+			sourceTree = "<group>";
+			path = Reading;
+		};
+		F94D54D36EEA1A43D85F3C42 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				BA83CEDB88914356BBC2D554 /* SettingsView.swift */,
+			);
+			sourceTree = "<group>";
+			path = Settings;
+		};
+/* End PBXGroup section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D99C71D765EA39705705AD1F /* XCLocalSwiftPackageReference "PagewormCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/PagewormCore;
+		};
+		8BC1015347827E927D1BA69E /* XCLocalSwiftPackageReference "PagewormDesign" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/PagewormDesign;
+		};
+		4B4191EE6E5DA25920083895 /* XCLocalSwiftPackageReference "PagewormActivity" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/PagewormActivity;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BD4B8E24A9E814617E7017FB /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.103.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C729441CCF87DC94E008C95E /* PagewormCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D99C71D765EA39705705AD1F /* PagewormCore */;
+			productName = PagewormCore;
+		};
+		CBECB7DE6B58B0C0C88F3EDB /* PagewormDesign */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BC1015347827E927D1BA69E /* PagewormDesign */;
+			productName = PagewormDesign;
+		};
+		222C0EBD835E89FA9C92332F /* PagewormActivity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B4191EE6E5DA25920083895 /* PagewormActivity */;
+			productName = PagewormActivity;
+		};
+		A46389DE639E06451CE6E212 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD4B8E24A9E814617E7017FB /* RevenueCat */;
+			productName = RevenueCat;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin PBXBuildFile section */
+		1453C2507F663866CE9881D3 /* PagewormApp.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 81F5C67EFF3A7B33E511AD3C /* PagewormApp.swift */;
+		};
+		D47AD4544640FE2CB5461594 /* RevenueCatConfig.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 8067854D3433E224D544DF51 /* RevenueCatConfig.swift */;
+		};
+		9E9BB8AC8AFAAC2CEC34D983 /* Components.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 9130D1B4BD5E3A54CD3E87F5 /* Components.swift */;
+		};
+		0575988D34994B81A9E7E838 /* HomeView.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 02376DAEC332254D72CC159A /* HomeView.swift */;
+		};
+		0A61251B8B7FABD6B461D1C3 /* InsightsView.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 0DD1AEE075A6392578C177DD /* InsightsView.swift */;
+		};
+		2C8F431E99328F9826809EE6 /* LibraryViews.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = A174D3B033D60F5D3D60595C /* LibraryViews.swift */;
+		};
+		D6779717C07CDCCB285E2B49 /* OnboardingFlow.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = CF3982D3FC17AB6FEACC6C0B /* OnboardingFlow.swift */;
+		};
+		0F8BDFDA02B11352773BD4D2 /* PaywallView.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = B12CACBDC48FE3534B2660B4 /* PaywallView.swift */;
+		};
+		1633626706832FF90DC4DC2A /* ReadingSessionView.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 13463A19E13438F46C6552BB /* ReadingSessionView.swift */;
+		};
+		015F5193DA0375844A213259 /* SettingsView.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = BA83CEDB88914356BBC2D554 /* SettingsView.swift */;
+		};
+		2127F28701A4294616E02F0F /* Models.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = E6191542C810C1CC94B0583B /* Models.swift */;
+		};
+		A8AC930F6EC575D38772699D /* LibraryAndSessions.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 426C6DA29F34EB386155BC80 /* LibraryAndSessions.swift */;
+		};
+		31195CAB6378A869ED262A4B /* LiveActivityController.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 73BAE945F9C9A6CA871F803C /* LiveActivityController.swift */;
+		};
+		0C11CD42A5F472A5A44748D4 /* MetadataClient.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = A28B189705783B6826F2DDB0 /* MetadataClient.swift */;
+		};
+		D3472FABD9AC384F76BF04D2 /* Notifications.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 25BE3D815869D6D64BAEE78E /* Notifications.swift */;
+		};
+		ED26B4D5429710969CC04CF5 /* ReportContext.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 40A36B80B7BACE2975721199 /* ReportContext.swift */;
+		};
+		A21274E6EB978A66D36E8FDD /* ScreenTimeManager.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 1E7B1417080BB47213ACEA04 /* ScreenTimeManager.swift */;
+		};
+		9E0CF8F6E633099A5B2D00FA /* SubscriptionManager.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 51611806876B9D25731EB3F6 /* SubscriptionManager.swift */;
+		};
+		B0CDA4F366CE9AD5AA864940 /* ShieldApplier.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 307759E919D7BAA2EE287639 /* ShieldApplier.swift */;
+		};
+		1FB6BB7504DE0216F3E4A8EF /* Assets.xcassets in Resources */ = {
+			isa = PBXBuildFile;
+			fileRef = 3AC332F0D769FA37473DF947 /* Assets.xcassets */;
+		};
+		28F2CFCF4884F955468B5586 /* PrivacyInfo.xcprivacy in Resources */ = {
+			isa = PBXBuildFile;
+			fileRef = 40DA5824E914D7F4A1E9EC64 /* PrivacyInfo.xcprivacy */;
+		};
+		1055BE7C31A8F8918FF3FE12 /* PagewormCore in Frameworks */ = {
+			isa = PBXBuildFile;
+			productRef = C729441CCF87DC94E008C95E /* PagewormCore */;
+		};
+		8E4C581E5D40CB5042882B73 /* PagewormDesign in Frameworks */ = {
+			isa = PBXBuildFile;
+			productRef = CBECB7DE6B58B0C0C88F3EDB /* PagewormDesign */;
+		};
+		1E591BF3DED8B64191D1DE93 /* PagewormActivity in Frameworks */ = {
+			isa = PBXBuildFile;
+			productRef = 222C0EBD835E89FA9C92332F /* PagewormActivity */;
+		};
+		7DEA305833E29FA921C5B88C /* RevenueCat in Frameworks */ = {
+			isa = PBXBuildFile;
+			productRef = A46389DE639E06451CE6E212 /* RevenueCat */;
+		};
+		2BD5EF396AC60B9520EF6232 /* ShieldConfiguration.appex in Embed Foundation Extensions */ = {
+			isa = PBXBuildFile;
+			fileRef = 77D6E53183395407A7709C4C /* ShieldConfiguration.appex */;
+			settings = {
+				ATTRIBUTES = (
+					RemoveHeadersOnCopy,
+				);
+			};
+		};
+		0079B3945C3AE2F42D23D9DA /* ShieldAction.appex in Embed Foundation Extensions */ = {
+			isa = PBXBuildFile;
+			fileRef = 1C27F355221C11ADA723EA01 /* ShieldAction.appex */;
+			settings = {
+				ATTRIBUTES = (
+					RemoveHeadersOnCopy,
+				);
+			};
+		};
+		0DB0C7EC1B95D70C14E37D14 /* DeviceActivityMonitor.appex in Embed Foundation Extensions */ = {
+			isa = PBXBuildFile;
+			fileRef = 31FBA9FC10665F36A0F2A3CD /* DeviceActivityMonitor.appex */;
+			settings = {
+				ATTRIBUTES = (
+					RemoveHeadersOnCopy,
+				);
+			};
+		};
+		45FE9B1719D03A89BFABFD57 /* DeviceActivityReport.appex in Embed Foundation Extensions */ = {
+			isa = PBXBuildFile;
+			fileRef = B6023D14CDED90E09812303B /* DeviceActivityReport.appex */;
+			settings = {
+				ATTRIBUTES = (
+					RemoveHeadersOnCopy,
+				);
+			};
+		};
+		CDFC98EA43E8789153ECC305 /* PagewormWidget.appex in Embed Foundation Extensions */ = {
+			isa = PBXBuildFile;
+			fileRef = F151EA1C0AD76DC83A8D465F /* PagewormWidget.appex */;
+			settings = {
+				ATTRIBUTES = (
+					RemoveHeadersOnCopy,
+				);
+			};
+		};
+		2D446955D12D5CE3F01B554C /* ShieldConfigurationExtension.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 1A340BC9EFCAC1E969C1F677 /* ShieldConfigurationExtension.swift */;
+		};
+		8AF557C0F0BD7EE6C6EF9BFF /* PagewormCore in Frameworks */ = {
+			isa = PBXBuildFile;
+			productRef = C729441CCF87DC94E008C95E /* PagewormCore */;
+		};
+		5F8A2B44D9FD13EB29A87C15 /* PagewormDesign in Frameworks */ = {
+			isa = PBXBuildFile;
+			productRef = CBECB7DE6B58B0C0C88F3EDB /* PagewormDesign */;
+		};
+		3B693DB31B8238D3B8F8D362 /* ShieldActionExtension.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = A7C57A9508CC7C78DC423351 /* ShieldActionExtension.swift */;
+		};
+		C1A30FEC5A8C92C7DA5D3A39 /* PagewormCore in Frameworks */ = {
+			isa = PBXBuildFile;
+			productRef = C729441CCF87DC94E008C95E /* PagewormCore */;
+		};
+		FC15824A0DFCA2DBEEF090E8 /* PagewormDesign in Frameworks */ = {
+			isa = PBXBuildFile;
+			productRef = CBECB7DE6B58B0C0C88F3EDB /* PagewormDesign */;
+		};
+		4821B61F8767DA0F86E3CA3D /* DeviceActivityMonitorExtension.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 501BF9163DFFA74750467402 /* DeviceActivityMonitorExtension.swift */;
+		};
+		BC62FEBF88A2916262772AA1 /* ShieldApplier.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 307759E919D7BAA2EE287639 /* ShieldApplier.swift */;
+		};
+		E87DDB7152BA5B5A70184803 /* PagewormCore in Frameworks */ = {
+			isa = PBXBuildFile;
+			productRef = C729441CCF87DC94E008C95E /* PagewormCore */;
+		};
+		A10F936BE7550667FD629FB9 /* PagewormDesign in Frameworks */ = {
+			isa = PBXBuildFile;
+			productRef = CBECB7DE6B58B0C0C88F3EDB /* PagewormDesign */;
+		};
+		BD9A66020822351BBEDF12EA /* WeeklyScrollReport.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = 1C5A35838ECD240571E41298 /* WeeklyScrollReport.swift */;
+		};
+		A632A5CD076B6C41B837C862 /* PagewormCore in Frameworks */ = {
+			isa = PBXBuildFile;
+			productRef = C729441CCF87DC94E008C95E /* PagewormCore */;
+		};
+		053FC42149D6A9851655237F /* PagewormDesign in Frameworks */ = {
+			isa = PBXBuildFile;
+			productRef = CBECB7DE6B58B0C0C88F3EDB /* PagewormDesign */;
+		};
+		114BD364F220DB9B355C2CFA /* PagewormWidget.swift in Sources */ = {
+			isa = PBXBuildFile;
+			fileRef = DBD391D28177C48BA6882924 /* PagewormWidget.swift */;
+		};
+		B61CDFDA88FE2626E9343F32 /* PagewormCore in Frameworks */ = {
+			isa = PBXBuildFile;
+			productRef = C729441CCF87DC94E008C95E /* PagewormCore */;
+		};
+		35583F20CAD5119ECAA3E7C9 /* PagewormDesign in Frameworks */ = {
+			isa = PBXBuildFile;
+			productRef = CBECB7DE6B58B0C0C88F3EDB /* PagewormDesign */;
+		};
+		D0ECE60C46F9977419C357D4 /* PagewormActivity in Frameworks */ = {
+			isa = PBXBuildFile;
+			productRef = 222C0EBD835E89FA9C92332F /* PagewormActivity */;
+		};
+/* End PBXBuildFile section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E38E95512CA3ADDE1FFDB4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1453C2507F663866CE9881D3 /* source */,
+				D47AD4544640FE2CB5461594 /* source */,
+				9E9BB8AC8AFAAC2CEC34D983 /* source */,
+				0575988D34994B81A9E7E838 /* source */,
+				0A61251B8B7FABD6B461D1C3 /* source */,
+				2C8F431E99328F9826809EE6 /* source */,
+				D6779717C07CDCCB285E2B49 /* source */,
+				0F8BDFDA02B11352773BD4D2 /* source */,
+				1633626706832FF90DC4DC2A /* source */,
+				015F5193DA0375844A213259 /* source */,
+				2127F28701A4294616E02F0F /* source */,
+				A8AC930F6EC575D38772699D /* source */,
+				31195CAB6378A869ED262A4B /* source */,
+				0C11CD42A5F472A5A44748D4 /* source */,
+				D3472FABD9AC384F76BF04D2 /* source */,
+				ED26B4D5429710969CC04CF5 /* source */,
+				A21274E6EB978A66D36E8FDD /* source */,
+				9E0CF8F6E633099A5B2D00FA /* source */,
+				B0CDA4F366CE9AD5AA864940 /* source */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		068AA6D51F732FCDC05D5C7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D446955D12D5CE3F01B554C /* source */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9E3F34E7333C2DFEF58135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B693DB31B8238D3B8F8D362 /* source */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15184EB109640D3ABFB6F7CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4821B61F8767DA0F86E3CA3D /* source */,
+				BC62FEBF88A2916262772AA1 /* source */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6730030D65EBBD07E5E792AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9A66020822351BBEDF12EA /* source */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0E9C3D018AF93EF0ED5CD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114BD364F220DB9B355C2CFA /* source */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C21D0C992B5FED13E8A35FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1055BE7C31A8F8918FF3FE12 /* framework */,
+				8E4C581E5D40CB5042882B73 /* framework */,
+				1E591BF3DED8B64191D1DE93 /* framework */,
+				7DEA305833E29FA921C5B88C /* framework */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C469325FB6F08DC337C4242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF557C0F0BD7EE6C6EF9BFF /* framework */,
+				5F8A2B44D9FD13EB29A87C15 /* framework */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A3F732E3BAE53D7B29E31DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A30FEC5A8C92C7DA5D3A39 /* framework */,
+				FC15824A0DFCA2DBEEF090E8 /* framework */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B82A4B9331C0F045A3A2B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87DDB7152BA5B5A70184803 /* framework */,
+				A10F936BE7550667FD629FB9 /* framework */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFA014AD3CFE6B774E0104D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A632A5CD076B6C41B837C862 /* framework */,
+				053FC42149D6A9851655237F /* framework */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDB3D79998FA23B996B4B84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61CDFDA88FE2626E9343F32 /* framework */,
+				35583F20CAD5119ECAA3E7C9 /* framework */,
+				D0ECE60C46F9977419C357D4 /* framework */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4ED8ECB07540828BD1A2225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB6BB7504DE0216F3E4A8EF /* resource */,
+				28F2CFCF4884F955468B5586 /* resource */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B7DF7AD1635F2CF4AED22FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88785847C413A47D3B517710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D80AAAB86779E751516438A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A1DCD2101F2A9099924B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853A36C656FA4D292A95B454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B77B1454CD864C692AE9CD37 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2BD5EF396AC60B9520EF6232 /* embed */,
+				0079B3945C3AE2F42D23D9DA /* embed */,
+				0DB0C7EC1B95D70C14E37D14 /* embed */,
+				45FE9B1719D03A89BFABFD57 /* embed */,
+				CDFC98EA43E8789153ECC305 /* embed */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXContainerItemProxy section */
+		31CB25E40BEBFAE5577615E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9FC9020764CEBE970C2271A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4690F745964885671EE9928;
+			remoteInfo = ShieldConfiguration;
+		};
+		CA27FE13C7D1A701024A1F58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9FC9020764CEBE970C2271A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA634A2EF6B4F2EFD2F7FEA4;
+			remoteInfo = ShieldAction;
+		};
+		8D84AFBB8AE8EA58F9A45503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9FC9020764CEBE970C2271A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F135C50303A358066DABA151;
+			remoteInfo = DeviceActivityMonitor;
+		};
+		38ABBC7932BEC2BB55FB97A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9FC9020764CEBE970C2271A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCAD634C00C58009287EAF33;
+			remoteInfo = DeviceActivityReport;
+		};
+		4FBBA2A63C22EA6647A9BFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9FC9020764CEBE970C2271A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F23DF5448160C0476AAF323C;
+			remoteInfo = PagewormWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		B4A2E09A6B15AA03DB258FDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4690F745964885671EE9928 /* ShieldConfiguration */;
+			targetProxy = 31CB25E40BEBFAE5577615E0 /* PBXContainerItemProxy */;
+		};
+		43EA4B9ED9D39A68C763C46F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA634A2EF6B4F2EFD2F7FEA4 /* ShieldAction */;
+			targetProxy = CA27FE13C7D1A701024A1F58 /* PBXContainerItemProxy */;
+		};
+		B45996F2C1F49877B9FCBC84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F135C50303A358066DABA151 /* DeviceActivityMonitor */;
+			targetProxy = 8D84AFBB8AE8EA58F9A45503 /* PBXContainerItemProxy */;
+		};
+		7D95DAF64F53CF3E9F606C47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCAD634C00C58009287EAF33 /* DeviceActivityReport */;
+			targetProxy = 38ABBC7932BEC2BB55FB97A9 /* PBXContainerItemProxy */;
+		};
+		4269ACEC1FCD08C0D0488408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F23DF5448160C0476AAF323C /* PagewormWidget */;
+			targetProxy = 4FBBA2A63C22EA6647A9BFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7D974512D0F0B20F67340FDB /* Debug Pageworm */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = App/Pageworm.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pageworm;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pageworm.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_PREVIEWS = YES;
+				SUPPORTS_MACCATALYST = NO;
+			};
+			name = Debug;
+		};
+		EEC8D9DDB87DA34A3BC9CA03 /* Release Pageworm */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = App/Pageworm.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pageworm;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pageworm.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_PREVIEWS = YES;
+				SUPPORTS_MACCATALYST = NO;
+			};
+			name = Release;
+		};
+		AD48C7FE34B6C467E44E1E8D /* Debug ShieldConfiguration */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extensions/ShieldConfiguration/ShieldConfiguration.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Extensions/ShieldConfiguration/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Shield;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pageworm.app.shield-configuration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+			};
+			name = Debug;
+		};
+		7B0469C4FE0E43A0D1B8C9CF /* Release ShieldConfiguration */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extensions/ShieldConfiguration/ShieldConfiguration.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Extensions/ShieldConfiguration/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Shield;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pageworm.app.shield-configuration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+			};
+			name = Release;
+		};
+		FAB57C54011E02C4F4103912 /* Debug ShieldAction */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extensions/ShieldAction/ShieldAction.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Extensions/ShieldAction/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Shield Action";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pageworm.app.shield-action";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+			};
+			name = Debug;
+		};
+		C5684294075B30DAB25E1D9E /* Release ShieldAction */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extensions/ShieldAction/ShieldAction.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Extensions/ShieldAction/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Shield Action";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pageworm.app.shield-action";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+			};
+			name = Release;
+		};
+		B1493DC80EAA0BC12E044216 /* Debug DeviceActivityMonitor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extensions/DeviceActivityMonitor/Monitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Extensions/DeviceActivityMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Monitor;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pageworm.app.monitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+			};
+			name = Debug;
+		};
+		6A1137D1D1EBCFC6FDD22A7C /* Release DeviceActivityMonitor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extensions/DeviceActivityMonitor/Monitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Extensions/DeviceActivityMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Monitor;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pageworm.app.monitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+			};
+			name = Release;
+		};
+		BEC065EA9C796215BF90F6A0 /* Debug DeviceActivityReport */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extensions/DeviceActivityReport/Report.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Extensions/DeviceActivityReport/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Report;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pageworm.app.report;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+			};
+			name = Debug;
+		};
+		C292DC039349A96222D4FEA0 /* Release DeviceActivityReport */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extensions/DeviceActivityReport/Report.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Extensions/DeviceActivityReport/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Report;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pageworm.app.report;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+			};
+			name = Release;
+		};
+		1C11D0E919B04A5BCCE7E7B1 /* Debug PagewormWidget */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extensions/Widget/Widget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Extensions/Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pageworm;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pageworm.app.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+			};
+			name = Debug;
+		};
+		ED6A3BF03E80C8B6257E26E0 /* Release PagewormWidget */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extensions/Widget/Widget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Extensions/Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pageworm;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pageworm.app.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+			};
+			name = Release;
+		};
+		B1BFCDAC141229A4C694A5E2 /* Debug project */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EEEE391CE1477AFE2DA37953 /* Release project */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21164B83744E52145D771915 /* Build configuration list for Pageworm */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D974512D0F0B20F67340FDB /* Debug */,
+				EEC8D9DDB87DA34A3BC9CA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1638E5090EAE73886CA8C3F1 /* Build configuration list for ShieldConfiguration */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD48C7FE34B6C467E44E1E8D /* Debug */,
+				7B0469C4FE0E43A0D1B8C9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05158D73EBB65828510564B1 /* Build configuration list for ShieldAction */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB57C54011E02C4F4103912 /* Debug */,
+				C5684294075B30DAB25E1D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34AE9FC1457CC6DF5337DBF1 /* Build configuration list for DeviceActivityMonitor */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1493DC80EAA0BC12E044216 /* Debug */,
+				6A1137D1D1EBCFC6FDD22A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85711F9DDE138234BFC32C5E /* Build configuration list for DeviceActivityReport */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC065EA9C796215BF90F6A0 /* Debug */,
+				C292DC039349A96222D4FEA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4955D383910E611C4F29171F /* Build configuration list for PagewormWidget */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C11D0E919B04A5BCCE7E7B1 /* Debug */,
+				ED6A3BF03E80C8B6257E26E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F0C9131CEDA34839DEE2B3F /* Build configuration list for project */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1BFCDAC141229A4C694A5E2 /* Debug */,
+				EEEE391CE1477AFE2DA37953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin PBXNativeTarget section */
+		AC4E3CCBD6E1DD8C12DDA581 /* Pageworm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21164B83744E52145D771915 /* configs */;
+			buildPhases = (
+				6E38E95512CA3ADDE1FFDB4C /* phase */,
+				0C21D0C992B5FED13E8A35FD /* phase */,
+				F4ED8ECB07540828BD1A2225 /* phase */,
+				B77B1454CD864C692AE9CD37 /* phase */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4A2E09A6B15AA03DB258FDC /* PBXTargetDependency */,
+				43EA4B9ED9D39A68C763C46F /* PBXTargetDependency */,
+				B45996F2C1F49877B9FCBC84 /* PBXTargetDependency */,
+				7D95DAF64F53CF3E9F606C47 /* PBXTargetDependency */,
+				4269ACEC1FCD08C0D0488408 /* PBXTargetDependency */,
+			);
+			name = Pageworm;
+			packageProductDependencies = (
+				C729441CCF87DC94E008C95E /* PagewormCore */,
+				CBECB7DE6B58B0C0C88F3EDB /* PagewormDesign */,
+				222C0EBD835E89FA9C92332F /* PagewormActivity */,
+				A46389DE639E06451CE6E212 /* RevenueCat */,
+			);
+			productName = Pageworm;
+			productReference = 13E52532826EA5C667DCF975 /* Pageworm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4690F745964885671EE9928 /* ShieldConfiguration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1638E5090EAE73886CA8C3F1 /* configs */;
+			buildPhases = (
+				068AA6D51F732FCDC05D5C7A /* phase */,
+				3C469325FB6F08DC337C4242 /* phase */,
+				7B7DF7AD1635F2CF4AED22FA /* phase */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShieldConfiguration;
+			packageProductDependencies = (
+				C729441CCF87DC94E008C95E /* PagewormCore */,
+				CBECB7DE6B58B0C0C88F3EDB /* PagewormDesign */,
+			);
+			productName = ShieldConfiguration;
+			productReference = 77D6E53183395407A7709C4C /* ShieldConfiguration.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DA634A2EF6B4F2EFD2F7FEA4 /* ShieldAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05158D73EBB65828510564B1 /* configs */;
+			buildPhases = (
+				BC9E3F34E7333C2DFEF58135 /* phase */,
+				7A3F732E3BAE53D7B29E31DB /* phase */,
+				88785847C413A47D3B517710 /* phase */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShieldAction;
+			packageProductDependencies = (
+				C729441CCF87DC94E008C95E /* PagewormCore */,
+				CBECB7DE6B58B0C0C88F3EDB /* PagewormDesign */,
+			);
+			productName = ShieldAction;
+			productReference = 1C27F355221C11ADA723EA01 /* ShieldAction.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F135C50303A358066DABA151 /* DeviceActivityMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34AE9FC1457CC6DF5337DBF1 /* configs */;
+			buildPhases = (
+				15184EB109640D3ABFB6F7CB /* phase */,
+				E0B82A4B9331C0F045A3A2B8 /* phase */,
+				1D80AAAB86779E751516438A /* phase */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceActivityMonitor;
+			packageProductDependencies = (
+				C729441CCF87DC94E008C95E /* PagewormCore */,
+				CBECB7DE6B58B0C0C88F3EDB /* PagewormDesign */,
+			);
+			productName = DeviceActivityMonitor;
+			productReference = 31FBA9FC10665F36A0F2A3CD /* DeviceActivityMonitor.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		FCAD634C00C58009287EAF33 /* DeviceActivityReport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85711F9DDE138234BFC32C5E /* configs */;
+			buildPhases = (
+				6730030D65EBBD07E5E792AA /* phase */,
+				9EFA014AD3CFE6B774E0104D /* phase */,
+				30A1DCD2101F2A9099924B6F /* phase */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceActivityReport;
+			packageProductDependencies = (
+				C729441CCF87DC94E008C95E /* PagewormCore */,
+				CBECB7DE6B58B0C0C88F3EDB /* PagewormDesign */,
+			);
+			productName = DeviceActivityReport;
+			productReference = B6023D14CDED90E09812303B /* DeviceActivityReport.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F23DF5448160C0476AAF323C /* PagewormWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4955D383910E611C4F29171F /* configs */;
+			buildPhases = (
+				6F0E9C3D018AF93EF0ED5CD6 /* phase */,
+				DFDB3D79998FA23B996B4B84 /* phase */,
+				853A36C656FA4D292A95B454 /* phase */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PagewormWidget;
+			packageProductDependencies = (
+				C729441CCF87DC94E008C95E /* PagewormCore */,
+				CBECB7DE6B58B0C0C88F3EDB /* PagewormDesign */,
+				222C0EBD835E89FA9C92332F /* PagewormActivity */,
+			);
+			productName = PagewormWidget;
+			productReference = F151EA1C0AD76DC83A8D465F /* PagewormWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9FC9020764CEBE970C2271A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AC4E3CCBD6E1DD8C12DDA581 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F4690F745964885671EE9928 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DA634A2EF6B4F2EFD2F7FEA4 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F135C50303A358066DABA151 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FCAD634C00C58009287EAF33 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F23DF5448160C0476AAF323C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 4F0C9131CEDA34839DEE2B3F /* configs */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 508E3D46B4E17BCB6FDD1386 /* Pageworm */;
+			packageReferences = (
+				D99C71D765EA39705705AD1F /* PagewormCore */,
+				8BC1015347827E927D1BA69E /* PagewormDesign */,
+				4B4191EE6E5DA25920083895 /* PagewormActivity */,
+				BD4B8E24A9E814617E7017FB /* RevenueCat */,
+			);
+			productRefGroup = 4910F58472E1E75D51D39370 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC4E3CCBD6E1DD8C12DDA581 /* Pageworm */,
+				F4690F745964885671EE9928 /* ShieldConfiguration */,
+				DA634A2EF6B4F2EFD2F7FEA4 /* ShieldAction */,
+				F135C50303A358066DABA151 /* DeviceActivityMonitor */,
+				FCAD634C00C58009287EAF33 /* DeviceActivityReport */,
+				F23DF5448160C0476AAF323C /* PagewormWidget */,
+			);
+		};
+/* End PBXProject section */
+	};
+	rootObject = D9FC9020764CEBE970C2271A /* Project object */;
+}
