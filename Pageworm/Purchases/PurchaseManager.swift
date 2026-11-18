@@ -26,8 +26,18 @@ final class PurchaseManager: ObservableObject {
         do {
             let offerings = try await Purchases.shared.offerings()
             let offering = offerings.offering(identifier: RevenueCatConfig.offeringID) ?? offerings.current
-            annual = pick(offering, id: RevenueCatConfig.annualProductID, type: .annual)
-            monthly = pick(offering, id: RevenueCatConfig.monthlyProductID, type: .monthly)
+            annual = pick(
+                offering,
+                packageID: RevenueCatConfig.annualPackageID,
+                productID: RevenueCatConfig.annualProductID,
+                type: .annual
+            )
+            monthly = pick(
+                offering,
+                packageID: RevenueCatConfig.monthlyPackageID,
+                productID: RevenueCatConfig.monthlyProductID,
+                type: .monthly
+            )
             apply(try await Purchases.shared.customerInfo())
         } catch {
             lastError = error.localizedDescription
@@ -85,9 +95,12 @@ final class PurchaseManager: ObservableObject {
         onPremiumChange?(active)
     }
 
-    private func pick(_ offering: Offering?, id: String, type: PackageType) -> Package? {
+    private func pick(_ offering: Offering?, packageID: String, productID: String, type: PackageType) -> Package? {
         guard let offering else { return nil }
-        if let matched = offering.availablePackages.first(where: { $0.storeProduct.productIdentifier == id }) {
+        if let matched = offering.availablePackages.first(where: { $0.identifier == packageID }) {
+            return matched
+        }
+        if let matched = offering.availablePackages.first(where: { $0.storeProduct.productIdentifier == productID }) {
             return matched
         }
         return type == .annual ? offering.annual : offering.monthly

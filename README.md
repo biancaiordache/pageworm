@@ -69,25 +69,24 @@ These are already set in `Config/Info`. They are easy to mistype, and a wrong va
 
 Shield configuration, shield action, and the monitor name a principal class with `$(PRODUCT_MODULE_NAME)`. The report and the widget use `@main`.
 
+## Names
+
+The App Store listing is **Pageworm: Read More** (Apple ID 6836330820). The name under the icon is `CFBundleDisplayName`: **Pageworm**. That display name is set on every target and again in `Config/Info/Pageworm-Info.plist`. Leave it as Pageworm when the store name is edited in App Store Connect.
+
 ## RevenueCat
 
-The public SDK key is a placeholder in `Pageworm/Purchases/RevenueCatConfig.swift`:
+The public iOS SDK key is in `Pageworm/Purchases/RevenueCatConfig.swift`. It is a client key. The secret key stays in the RevenueCat dashboard.
 
-```swift
-static let apiKey = "appl_REPLACE_WITH_REVENUECAT_PUBLIC_SDK_KEY"
-```
+The app looks up:
 
-While that string still contains `REPLACE`, the app does not call RevenueCat. The paywall still shows the planned prices, and a purchase explains that the key is missing. Onboarding can continue on the free plan.
+| | |
+| --- | --- |
+| Entitlement | `premium` |
+| Offering | `default` (falls back to the current offering) |
+| Packages | `$rc_annual`, `$rc_monthly` |
+| Products | `pageworm_annual` ($39.99/year, 7-day trial), `pageworm_monthly` ($6.99/month) |
 
-When you are ready:
-
-1. Replace `apiKey` with the public iOS SDK key from RevenueCat. Not the secret key.
-2. In App Store Connect, create auto-renewable products:
-   - `pageworm_annual` — $39.99 a year, with a 7-day free introductory offer
-   - `pageworm_monthly` — $6.99 a month, no trial
-3. In RevenueCat, attach both products to an entitlement named `premium`.
-4. Put both packages in an offering whose identifier is `default` (or make that offering current). The app looks up `default`, then falls back to the current offering, then to package type annual or monthly.
-5. The constants for those IDs are next to the API key. Change the constants if your identifiers differ.
+A package match tries the `$rc_` identifier first, then the App Store product id, then the annual or monthly package type.
 
 The annual paywall is three pages: what Plus includes, a day 1 / day 6 / day 7 trial timeline, then the price. Declining it reveals the monthly plan only. Restore sits on both.
 
